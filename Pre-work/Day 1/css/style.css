@@ -1,0 +1,92 @@
+
+		h1{
+			text-decoration: underline;
+			font-size: 20pt;
+			color: black;
+		}
+		h2 {
+			text-decoration: underline;
+			font-size: 20pt;
+			color: black;
+		}
+		h3{
+			font-size: 20pt;
+			text-decoration: underline;
+			color: black;
+		}
+		 /*#p1 {
+			margin-right: 85px;
+		}*/
+		p{
+			font-size: 17pt;
+			margin-top: 0;
+		}
+		#goals {
+			font-style: italic;
+		}
+		.goals {
+			font-style: italic;
+		}
+		ul{
+			font-size: 17pt;
+		}
+		ol{
+			font-size:	17pt;
+		}
+		body{
+			background-color: silver;
+			padding-right: 0px;
+			padding-left: 60px;
+			width: 1700px;
+		}
+		a{
+			color: purple;
+		}
+		form {
+		padding: 15px;
+		background-color: silver;
+		font-style: italic;
+		border-style: solid;
+		border-radius: 20px;
+		border
+		font-weight: 900px;
+		}
+		input[type=button] {
+		color:	black;
+		background-color: silver;
+		padding: 5px;
+		width: 100px;
+		display: inline-block;
+		}
+		input[type=text] {
+			width: 200px;
+		}
+		span{
+		color: red;
+	 	}
+	 	* {
+	 		 -webkit-box-sizing: border-box;
+	 			-moz-box-sizing: border-box;
+	 				 box-sizing: border-box;
+	 	}
+	 	img {position:	relative;
+	 		float: right;
+	 		right: 0px;
+	 		width: 20%;
+	 		display: inline-block;
+	 	}
+	 	#div6 {position: relative;
+	 		width: 562px; height: 316px;
+	 		margin-left: 200px;
+	 	}
+	 	#div2 {
+	 		margin-top: 0px;
+	 	}
+	 	#p2 {
+			margin-bottom: 0px;
+		}
+		th {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 17pt;
+		}

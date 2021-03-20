@@ -1,0 +1,140 @@
+The OS/browser default
+
+button.demo {
+
+}
+
+button.demo:hover,
+button.demo.hover {
+
+}
+
+button.demo:active,
+button.demo.active {
+
+}
+
+The "I'm so flat you can barely tell I'm a button"
+
+button.flat {
+    outline: none;
+    margin: 0;
+    background: #e0e0e0;
+    cursor: pointer;
+    border: 0;
+    padding: .4em .8em;
+    text-rendering: optimizeLegibility;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 300;
+    color: inherit
+}
+
+button.flat:hover,
+button.flat.hover {
+    background: #e6e6e6
+}
+
+button.flat:active,
+button.flat.active {
+    background: #d6d6d6
+}
+
+
+The skeuomorph
+
+button.skeuomorph {
+    outline: none;
+    margin: 0;
+    background: linear-gradient(#eee, #c0c0c0);
+    border-radius: .25em;
+    cursor: pointer;
+    border: 0;
+    padding: .4em .8em;
+    text-rendering: optimizeLegibility;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 300;
+    color: inherit;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5)
+}
+
+button.skeuomorph:hover,
+button.skeuomorph.hover {
+    box-shadow:
+        inset 0 0 0 1px rgba(0, 0, 0, 0.2),
+        0 .08em .24em rgba(0, 0, 0, 0.3)
+}
+
+button.skeuomorph:active,
+button.skeuomorph.active {
+    box-shadow:
+        inset 0 0 0 1px rgba(0, 0, 0, 0.2),
+        inset 0 .08em .24em rgba(0, 0, 0, 0.3)
+}
+
+Skeuomorph-liteTM
+
+button.skeuomorph-lite {
+    outline: none;
+    margin: 0;
+    background: #e0e0e0;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    cursor: pointer;
+    padding: .4em .8em;
+    text-rendering: optimizeLegibility;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 300;
+    color: inherit
+}
+
+button.skeuomorph-lite:hover,
+button.skeuomorph-lite.hover {
+    background: #e6e6e6
+}
+
+button.skeuomorph-lite:active,
+button.skeuomorph-lite.active {
+    background: #e0e0e0;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+
+The “I pretend I’m flat when really I’m just a different skeuomorph”
+
+button.skeuomorph-flat {
+    outline: none;
+    margin: 0;
+    border: 0;
+    border-radius: .25em;
+    background: #e0e0e0;
+    cursor: pointer;
+    padding: .4em .8em;
+    text-rendering: optimizeLegibility;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 300;
+    color: inherit;
+    box-shadow: 0 .2em #888;
+    -webkit-transform: translateY(-.2em);
+    -moz-transform: translateY(-.2em);
+    transform: translateY(-.2em)
+}
+
+button.skeuomorph-flat:hover,
+button.skeuomorph-flat.hover {
+    background: #e6e6e6
+}
+
+button.skeuomorph-flat:active,
+button.skeuomorph-flat.active {
+    box-shadow: none;
+    background: #e0e0e0;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    transform: translateY(0)
+}

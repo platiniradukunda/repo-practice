@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hover Selector</title>
+</head>
+<body>
+	<form>
+	Name:		<br>
+	<input type="text" name="Name">	<br>
+	Gender:		<br>
+	<input type="radio" name="gender" value="Male"> Male <br>
+	<input type="radio" name="gender" value="Female"> Female <br>
+	<input type="button" name="submit" value="submit">
+	</form>
+	<!-- This is only for html not CSS-->
+	<style type="text/css">
+		input[type=button]:hover{
+			border:solid;
+			background-color: teal;
+		}
+		input[type=text]:focus {
+			background-color: teal;
+			color: black;			
+		}
+	</style>
+
+</body>
+</html>

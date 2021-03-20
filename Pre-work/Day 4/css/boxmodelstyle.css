@@ -1,0 +1,12 @@
+/*
+CSS Box Model
+*/
+h1{
+	background: red;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+p{
+	background: blue;
+	padding: 30px;
+}
